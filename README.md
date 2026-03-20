@@ -1,5 +1,5 @@
-# [AISTATS 2026] Hellinger Multimodal Variational Autoencoders
-Official PyTorch implementation for HELVAE, published at AISTATS 2026.
+# Hellinger Multimodal Variational Autoencoders
+Official PyTorch implementation for HELVAE, published at **AISTATS 2026**.
 
 This repository is based on the implementation of the ICLR 2021 paper **[Generalized Multimodal ELBO](https://github.com/thomassutter/MoPoE)**.
 
