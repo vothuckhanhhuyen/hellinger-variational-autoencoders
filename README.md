@@ -1,4 +1,6 @@
-# HELVAE
+# Hellinger Multimodal Variational Autoencoders
+Official PyTorch implementation for HELVAE, introduced in the paper Hellinger Multimodal Variational Autoencoders, published at AISTATS 2026.
+
 This repository is based on the implementation of the ICLR 2021 paper **[Generalized Multimodal ELBO](https://github.com/thomassutter/MoPoE)**.
 
 ## Preliminaries
@@ -40,3 +42,18 @@ By default, each experiment runs with `METHOD="helvae"`.
 ```
 toy_dataset_helvae.ipynb
 ```
+
+## Citing 
+```
+@inproceedings{
+vo2026hellinger,
+title={Hellinger Multimodal Variational Autoencoders},
+author={Huyen Thuc Khanh Vo and Isabel Valera},
+booktitle={The 29th International Conference on Artificial Intelligence and Statistics},
+year={2026},
+url={https://openreview.net/forum?id=mxHyYltMUa}
+}
+```
+
+#### Acknowledgements
+We thank the authors of the [MoPoE](https://github.com/thomassutter/MoPoE) repo, from which our codebase is based on.
